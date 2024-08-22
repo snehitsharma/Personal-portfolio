@@ -7,12 +7,12 @@ export default defineConfig({
     'process.env': process.env
   },
   assetsInclude: ['**/*.glb', '**/*.gltf', '**/*.png'],
-  build: {
-    rollupOptions: {
-      external: ['three'],
-    },
-  },
   optimizeDeps: {
     include: ['three', '@react-three/fiber', '@react-three/drei'],
+  },
+  resolve: {
+    alias: {
+      'three': 'three/src/Three.js',
+    }
   },
 })

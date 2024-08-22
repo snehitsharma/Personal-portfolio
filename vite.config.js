@@ -6,7 +6,7 @@ export default defineConfig({
   define: {
     'process.env': process.env
   },
-  assetsInclude: ['**/*.glb', '**/*.gltf'],
+  assetsInclude: ['**/*.glb', '**/*.gltf', '**/*.png'],
   build: {
     rollupOptions: {
       external: ['three', '@react-three/fiber', '@react-three/drei'],

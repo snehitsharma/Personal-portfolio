@@ -9,7 +9,7 @@ export default defineConfig({
   assetsInclude: ['**/*.glb', '**/*.gltf', '**/*.png'],
   build: {
     rollupOptions: {
-      external: ['three', '@react-three/fiber', '@react-three/drei'],
+      external: ['three', '@react-three/fiber'],
     },
   },
   optimizeDeps: {

@@ -13,6 +13,7 @@
     "@react-three/drei": "^9.111.2",
     "@react-three/fiber": "^8.0.0",
     "framer-motion": "^9.0.7",
+    "gltf-loader": "^1.0.0",
     "gsap": "^3.12.5",
     "maath": "^0.5.2",
     "react": "^18.2.0",

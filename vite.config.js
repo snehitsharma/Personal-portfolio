@@ -4,9 +4,15 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [react()],
   define: {
-    'process.env.VITE_EMAILJS_SERVICE_ID': JSON.stringify(process.env.VITE_EMAILJS_SERVICE_ID),
-    'process.env.VITE_EMAILJS_TEMPLATE_ID': JSON.stringify(process.env.VITE_EMAILJS_TEMPLATE_ID),
-    'process.env.VITE_EMAILJS_PUBLIC_KEY': JSON.stringify(process.env.VITE_EMAILJS_PUBLIC_KEY),
+    'process.env': process.env
   },
   assetsInclude: ['**/*.glb', '**/*.gltf'],
+  build: {
+    rollupOptions: {
+      external: ['three', '@react-three/fiber', '@react-three/drei'],
+    },
+  },
+  optimizeDeps: {
+    include: ['three', '@react-three/fiber', '@react-three/drei'],
+  },
 })

@@ -3,8 +3,9 @@ import logo from "./logo.svg";
 import menu from "./menu.svg";
 
 import algorithms from "./algorithms.png";
+import ammtb from "./ammtb.png";
 import devnotes from "./devnotes.png";
 import oscs from "./oscs.png";
 
-export { algorithms, close, devnotes, logo, menu, oscs };
+export { algorithms, ammtb, close, devnotes, logo, menu, oscs };
 

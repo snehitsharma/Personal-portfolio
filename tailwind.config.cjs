@@ -18,17 +18,23 @@ module.exports = {
       },
       keyframes: {
         textRotate1: {
-          '0%, 40%': { transform: 'translate3d(0, 0%, 0) rotateX(0deg)' },
-          '60%, 100%': { transform: 'translate3d(0, -100%, 0) rotateX(-90deg)' },
+          '0%, 26%': { transform: 'translate3d(0, 0%, 0) rotateX(0deg)' },
+          '33%, 100%': { transform: 'translate3d(0, -100%, 0) rotateX(-90deg)' },
         },
         textRotate2: {
-          '0%, 40%': { transform: 'translate3d(0, 100%, 0) rotateX(-90deg)' },
-          '60%, 100%': { transform: 'translate3d(0, 0%, 0) rotateX(0deg)' },
+          '0%, 26%': { transform: 'translate3d(0, 100%, 0) rotateX(-90deg)' },
+          '33%, 60%': { transform: 'translate3d(0, 0%, 0) rotateX(0deg)' },
+          '66%, 100%': { transform: 'translate3d(0, -100%, 0) rotateX(-90deg)' },
+        },
+        textRotate3: {
+          '0%, 60%': { transform: 'translate3d(0, 100%, 0) rotateX(-90deg)' },
+          '66%, 100%': { transform: 'translate3d(0, 0%, 0) rotateX(0deg)' },
         },
       },
       animation: {
-        textRotate1: 'textRotate1 2.4s infinite alternate',
-        textRotate2: 'textRotate2 2.4s infinite alternate',
+        textRotate1: 'textRotate1 3.6s infinite',
+        textRotate2: 'textRotate2 3.6s infinite',
+        textRotate3: 'textRotate3 3.6s infinite',
       },
       fontSize: {
         title: '2rem',

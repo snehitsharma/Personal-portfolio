@@ -32,9 +32,9 @@ module.exports = {
         },
       },
       animation: {
-        textRotate1: 'textRotate1 3.6s infinite',
-        textRotate2: 'textRotate2 3.6s infinite',
-        textRotate3: 'textRotate3 3.6s infinite',
+        textRotate1: 'textRotate1 6s infinite both',
+        textRotate2: 'textRotate2 6s infinite both',
+        textRotate3: 'textRotate3 6s infinite both',
       },
       fontSize: {
         title: '2rem',

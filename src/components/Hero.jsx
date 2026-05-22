@@ -35,7 +35,7 @@ const Hero = ({ scrollContainer }) => {
           style={{ marginTop: taglineMargin }}
         >
           <div className='font-bold text-[20px] sm:text-[30px] md:text-[36px] 2xl:text-[/4px] sm:leading-[40px] md:leading-[50px] 2xl:leading-[60px] streaky-glow max-w-sm 2xl:max-w-lg text-white text-left'>
-            Building AI systems, data pipelines, and agentic solutions that turn raw data into decisions.
+            Building RAG systems, AI agents, and data pipelines — shipping production AI from prototype to scale.
           </div>
         </div>
       </div>

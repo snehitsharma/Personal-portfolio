@@ -30,9 +30,9 @@ const experiences = [
     company_name: "Quantile Tech",
     date: "Feb 2025 – Present",
     details: [
-      "Driving <span style='color: white;'>technical analysis and system design</span> initiatives at Quantile Tech, contributing to quantitative and data-driven solutions.",
-      "<span style='color: white;'>Collaborating with engineering and product teams</span> to deliver scalable, high-performance analytical tools.",
-      "Applying expertise in <span style='color: white;'>data pipelines, software engineering, and analytics</span> to support client-facing products and internal platforms.",
+      "Designed and deployed <span style='color: white;'>conversational AI agents</span> inside Unity VR training environments, enabling real-time user interaction and adaptive learning workflows across client products.",
+      "Built an internal <span style='color: white;'>RAG system using LangChain and OpenAI API</span> over a proprietary knowledge base, enabling employees to query company documentation through a conversational LLM interface.",
+      "Built and delivered interactive <span style='color: white;'>Power BI dashboards</span> tracking retention rates and session length metrics, providing clients with actionable insights that directly informed product and UX decisions.",
     ],
   },
   {
@@ -50,9 +50,9 @@ const experiences = [
     company_name: "Tata Consultancy Services",
     date: "May 2021 – Jan 2023",
     details: [
-      "Developed and delivered <span style='color: white;'>end-to-end workflows for financial data management</span> and clinical trial platforms for clients including <span style='color: white;'>Comcast and GSK</span>.",
-      "<span style='color: white;'>Designed and implemented intuitive dashboards</span> using React.js, GraphQL, and integrated ElasticSearch to enhance search capabilities.",
-      "<span style='color: white;'>Collaborated with cross-functional teams</span> to optimize storage and retrieval of large volumes of data, improving query performance by 40%.",
+      "Built and optimized <span style='color: white;'>PySpark ETL pipelines on Databricks</span> for customer transaction data, including sensitive column masking and data protection compliance at scale.",
+      "Designed <span style='color: white;'>FastAPI RESTful APIs improving data retrieval by 40%</span> and optimized PostgreSQL queries via CTEs and execution plan tuning, reducing query time by 30%.",
+      "Automated containerized microservice deployments via <span style='color: white;'>Docker and Kubernetes</span>, implementing zero downtime upgrades cutting maintenance downtime by 80%.",
     ],
   },
   {
@@ -69,15 +69,15 @@ const experiences = [
 
 const portfolio = [
   {
-    name: "AMMTB Multi-Agent Trading System",
+    name: "Multi-Agent Autonomous Trading System",
     description:
-      "Built a modular, agent-driven autonomous trading system with a microservices architecture spanning US equities, crypto, and India markets. Features include real-time signal generation, Jito bundle execution, portfolio orchestration, and a React dashboard for live monitoring.",
+      "Engineered a multi-agent trading system with ensemble ML models for real-time signal aggregation and buy/sell decision logic, deployed via microservices (Python · FastAPI · React) with a live P&L dashboard and portfolio orchestration across US equities, crypto, and India markets.",
     image: ammtb,
   },
   {
     name: "NL-to-SQL Query Engine",
     description:
-      "Engineered a natural language to SQL translation engine leveraging large language models and schema-aware prompt engineering. Enables non-technical users to query relational databases conversationally with high accuracy and explainability.",
+      "Built a natural language to SQL engine using Azure OpenAI and LangChain — plain English queries auto-generate and execute correct SQL. Full RAG pipeline with ChromaDB for schema-aware retrieval, React frontend for live query input, and Python backend handling prompt engineering, validation, and execution.",
     image: devnotes,
   },
   {
